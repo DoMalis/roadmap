@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_baseline_view_list_24"
+            android:title="@string/menu_courses" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_baseline_note_alt_24"
+            android:title="@string/menu_notes" />
+        <item
+            android:id="@+id/nav_saved_courses"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/menu_saved_topics" />
+    </group>
+</menu>
